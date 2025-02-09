@@ -1,0 +1,22 @@
+.positive-widget {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: linear-gradient(135deg, #4CAF50, #66BB6A);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+    margin: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.positive-widget:hover {
+    transform: scale(1.05);
+}
